@@ -24,7 +24,7 @@ colors = {'background': '#D3D3D3', 'text': '#111111'}
 
 # Function to load data and initialize global variables
 def load_data():
-    dataset_name = "global_terror.csv"  # Name of the CSV file containing data
+    dataset_name = "global_terror.csv.gz"  # Name of the CSV file containing data
     
     global df
     df = pd.read_csv(dataset_name)  # Read CSV data into DataFrame
@@ -471,3 +471,4 @@ if __name__ == "__main__":
     
     
     
+
